@@ -22,7 +22,7 @@ class WordsFinder:
         found = {}
         for name, words in self.get_all_words().items():
             if word in words:
-                found[name] = words.index(word)
+                found[name] = words.index(word) + 1
         return found
 
     def count(self, word):
