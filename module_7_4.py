@@ -29,5 +29,5 @@ else:
 challenge_result = result
 tasks_total = 82
 time_avg = 45.2
-print(f"Результат битвы: {challenge_result}!")
+print(f"Результат битвы: {challenge_result}")
 print(f"Сегодня было решено {tasks_total} задач, в среднем по {time_avg} секунды на задачу!.")
